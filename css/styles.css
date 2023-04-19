@@ -37,6 +37,9 @@ main {
   line-height: 2.1rem;
   letter-spacing: 0.06em; }
 
+.cards {
+  width: 100%; }
+
 /* =============== CARD GROUP 1 =============== */
 .card__group1 {
   padding: 2.4rem;
