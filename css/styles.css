@@ -1,0 +1,308 @@
+/* =============== RESET =============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Titillium Web', sans-serif; }
+
+/* =============== VARIABLES =============== */
+/* =============== GENERIC =============== */
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #F8FAFC; }
+
+main {
+  max-width: 130rem;
+  padding: 8rem 2rem;
+  margin: auto;
+  display: flex;
+  align-items: flex-start; }
+
+/* =============== UTILITY CLASS =============== */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.textColorPurple {
+  color: #7C3AED;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.1rem;
+  letter-spacing: 0.06em; }
+
+/* =============== CARD GROUP 1 =============== */
+.card__group1 {
+  padding: 2.4rem;
+  border: 0.1rem solid #E2E8F0;
+  border-radius: 1rem;
+  transition: .2s ease;
+  height: 37.9rem; }
+  .card__group1 .card__essentials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .8rem; }
+    .card__group1 .card__essentials h2 {
+      color: #1E293B;
+      font-size: 2.4rem;
+      font-weight: 700;
+      line-height: 3.7rem; }
+    .card__group1 .card__essentials p .pricingBold {
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 2.7rem;
+      color: #1E293B; }
+  .card__group1 .card__button {
+    padding: 1.6rem 2.4rem;
+    border: 0.1rem solid #1E293B;
+    border-radius: .4rem;
+    text-align: center;
+    margin: 1.7rem 0 1.6rem 0;
+    cursor: pointer; }
+    .card__group1 .card__button a {
+      color: #1E293B;
+      font-weight: 700;
+      line-height: 2.4rem; }
+  .card__group1 .card__content {
+    border-top: 0.1rem solid #E2E8F0;
+    padding-top: 1.6rem; }
+    .card__group1 .card__content > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem; }
+      .card__group1 .card__content > ul li i:first-child {
+        color: #1B873F;
+        margin-right: .8rem;
+        font-size: 2rem; }
+      .card__group1 .card__content > ul li span {
+        flex: 1;
+        color: #475569;
+        font-weight: 400;
+        letter-spacing: 0.06em; }
+      .card__group1 .card__content > ul li i:last-child {
+        color: #0F172A;
+        font-size: 2rem; }
+
+.card__group1:hover {
+  border: 0.1rem solid #996DFF; }
+
+/* =============== CARD GROUP 2 =============== */
+.card__group2 {
+  background-color: #0F172A;
+  border-radius: 1rem;
+  padding: 4rem 2.4rem;
+  margin: 4.1rem 0 2.4rem 0;
+  position: relative; }
+  .card__group2 .card__ultimate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .8rem; }
+    .card__group2 .card__ultimate h2 {
+      color: #F8FAFC;
+      font-size: 2.4rem;
+      font-weight: 700; }
+    .card__group2 .card__ultimate p {
+      color: #F8FAFC; }
+      .card__group2 .card__ultimate p > span {
+        font-size: 1.8rem;
+        color: #F8FAFC;
+        font-weight: 700; }
+  .card__group2 .card__button {
+    margin: 3.2rem 0 1.6rem 0;
+    text-align: center;
+    background-color: #996DFF;
+    padding: 1.6rem 3.2rem;
+    border-radius: .4rem;
+    cursor: pointer; }
+    .card__group2 .card__button a {
+      color: #fff;
+      font-weight: 700; }
+  .card__group2 .card__button:hover {
+    background-color: #7C3AED; }
+  .card__group2 .card__content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    border-top: 0.1rem solid #334155;
+    padding-top: 1.6rem; }
+    .card__group2 .card__content ul li i:first-child {
+      color: #1B873F;
+      font-size: 2rem; }
+    .card__group2 .card__content ul li span {
+      flex: 1;
+      margin-left: .8rem;
+      color: #CBD5E1;
+      font-weight: 400;
+      letter-spacing: 0.06em; }
+    .card__group2 .card__content ul li i:last-child {
+      font-size: 2rem;
+      color: #475569; }
+
+/* =============== CARD GROUP 3 =============== */
+.card__group3 {
+  border: 0.1rem solid #E2E8F0;
+  border-radius: 1rem;
+  padding: 2.4rem; }
+  .card__group3 .card__ultimate {
+    margin-top: .8rem; }
+    .card__group3 .card__ultimate h2 {
+      color: #1E293B;
+      font-size: 3.2rem;
+      font-weight: 700;
+      line-height: 4.9rem; }
+  .card__group3 .card__button {
+    padding: 1.6rem 2.4rem;
+    text-align: center;
+    border: 0.1rem solid #1E293B;
+    border-radius: .4rem;
+    margin: 1.6rem 0 1.6rem 0;
+    cursor: pointer; }
+    .card__group3 .card__button a {
+      font-style: normal;
+      line-height: 2.4rem;
+      font-weight: 700;
+      color: #1E293B; }
+  .card__group3 .card__content {
+    border-top: 0.1rem solid #E2E8F0;
+    padding-top: 3.2rem; }
+    .card__group3 .card__content ul li i {
+      color: #1B873F;
+      font-size: 2rem;
+      margin-right: .8rem; }
+    .card__group3 .card__content ul li span {
+      color: #475569;
+      letter-spacing: 0.06em; }
+
+.card__group3:hover {
+  border: 0.1rem solid #996DFF; }
+
+/* =============== DESKTOP =============== */
+@media (min-width: 768px) {
+  #cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem; }
+
+  .cards {
+    padding: 4.8rem 3.2rem;
+    width: 42rem; }
+
+  .card__group2::before {
+    content: "mais vantajoso";
+    position: absolute;
+    top: -2rem;
+    left: 8.5rem;
+    color: #0F172A;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: .6rem;
+    background-color: #FBA94C;
+    padding: .8rem 1.6rem;
+    text-align: center; } }
+@media (max-width: 320px) {
+  .card__group2::before {
+    content: "mais vantajoso";
+    position: absolute;
+    top: -2rem;
+    left: 6.5rem !important;
+    color: #0F172A;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: .6rem;
+    background-color: #FBA94C;
+    padding: .8rem 1.6rem;
+    text-align: center; } }
+@media (max-width: 375px) {
+  .card__group2::before {
+    content: "mais vantajoso";
+    position: absolute;
+    top: -2rem;
+    left: 8.5rem;
+    color: #0F172A;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: .6rem;
+    background-color: #FBA94C;
+    padding: .8rem 1.6rem;
+    text-align: center; } }
+@media (max-width: 425px) {
+  .card__group2::before {
+    content: "mais vantajoso";
+    position: absolute;
+    top: -2rem;
+    left: 8.5rem;
+    color: #0F172A;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: .6rem;
+    background-color: #FBA94C;
+    padding: .8rem 1.6rem;
+    text-align: center; } }
+@media (max-width: 768px) {
+  .card__group2::before {
+    content: "mais vantajoso";
+    position: absolute;
+    top: -2rem;
+    left: 8.5rem;
+    color: #0F172A;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: .6rem;
+    background-color: #FBA94C;
+    padding: .8rem 1.6rem;
+    text-align: center; } }
+@media (max-width: 1012px) {
+  body {
+    display: grid;
+    place-content: center; }
+
+  #cards {
+    display: flex;
+    flex-direction: column; }
+
+  .cards {
+    max-width: 32rem; } }
+@media (min-width: 1044px) {
+  .card__group2::before {
+    content: "mais vantajoso";
+    position: absolute;
+    top: -2rem;
+    left: 8.5rem;
+    color: #0F172A;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: .6rem;
+    background-color: #FBA94C;
+    padding: .8rem 1.6rem;
+    text-align: center; } }
+@media (min-width: 1200px) {
+  .card__group2::before {
+    content: "mais vantajoso";
+    position: absolute;
+    top: -2rem;
+    left: 12rem;
+    color: #0F172A;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: .6rem;
+    background-color: #FBA94C;
+    padding: .8rem 1.6rem;
+    text-align: center; } }
+
+/*# sourceMappingURL=styles.css.map */
